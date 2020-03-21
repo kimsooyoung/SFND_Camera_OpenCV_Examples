@@ -1,0 +1,53 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f93b5e59f98>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f93b5e59f98>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f93b5bb30b8>)
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.167s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints) by extension 'python'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package '/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/detect_keypoints' with type 'cmake' and name 'camera_fusion'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/swimming/Documents/Dev/Robotics/udacity/sensor_fusion/SFND_Detect_Keypoints/solution) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
