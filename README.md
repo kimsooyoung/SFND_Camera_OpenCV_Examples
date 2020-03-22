@@ -1,5 +1,7 @@
 # Sensor Fusion Self-Driving Car Course - Camera Examples
 
+Basic Examples for OpenCV && Keypoint Detectors/Descriptors
+
 ### Project Status:
 
 ![issue_badge](https://img.shields.io/badge/build-Passing-green) ![issue_badge](https://img.shields.io/badge/UdacityRubric-Passing-green)
